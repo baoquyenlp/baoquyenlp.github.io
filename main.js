@@ -44,7 +44,7 @@ function circle() {
 	setInterval(function() {
 		var circle = document.getElementById('circle');
 		circle.classList.toggle('resetCircle');
-	}, 5000);
+	}, 3000);
 }
 
 //Circle
