@@ -1,0 +1,195 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*Zoom Out*/
+
+.zoomOut {
+	margin: 30px;
+}
+
+.zoomOut h1 {
+	margin: 20px 0;
+}
+
+.zoomOut div#zoomOut {
+	width: 600px;
+	height: 200px;
+	background-color: green;
+	transition: 1s;
+}
+
+.zoomOut .reset {
+	width: 0px!important;
+	height: 0px!important;
+}
+
+.zoomOut button {
+	margin: 30px 0;
+	padding: 10px;
+}
+
+
+
+
+/*Progress Bar*/
+.progressBar {
+	margin: 30px;
+}
+
+.progressBar h1 {
+	margin: 20px 0;
+}
+
+.progressBar button {
+	margin: 30px 0;
+	padding: 10px;
+}
+
+#progressBar {
+  width: 100%;
+  background-color: #ddd;
+  position: relative;
+}
+
+#progressBar h3 {
+	position: absolute;
+	font-size: 16px;
+	top: 28%;
+	left: 48%;
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+/*Change Color*/
+.changeColor {
+	margin: 30px;
+}
+
+.changeColor h1 {
+	margin: 20px 0;
+}
+
+
+#boxColor {
+    margin: auto;
+    width: 300px;
+    height: 150px;
+    background-color: black;
+}
+
+.lineChange {
+    margin: 20px auto;
+    width: 300px;
+    display: block;
+}
+
+.lineChange input {
+    margin-left: 10px;
+    width: 83%;
+    cursor: pointer;
+    float: right;
+}
+
+
+/*Control Box*/
+
+.controlBox {
+	margin: 30px;
+}
+
+.controlBox h1 {
+	margin: 20px 0;
+}
+
+.box {
+    position: relative;
+    height: 150px;
+    width: 80%;
+    background-color: green;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#moveBox {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    height: 80px;
+    width: 5%;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.lineControl {
+    width: 80%;
+}
+
+.lineControl input {
+    width: 100%;
+    cursor: pointer;
+}
+
+/*Circle*/
+
+.circle {
+	margin: 30px;
+}
+
+.circle h1 {
+	margin: 20px 0;
+}
+
+.circle div#circle {
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+	border-radius: 50%;
+	transition: 5s;
+}
+
+.circle .resetCircle {
+	width: 40px!important;
+	height: 40px!important;
+}
+
+/* Opacity */
+
+.opacity {
+	margin: 30px;
+}
+
+.opacity h1 {
+	margin: 20px 0;
+}
+
+
+#opacityBox1 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+    background-color: green;
+    transition: 3s;
+}
+
+#opacityBox2 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+    background-color: red;
+    transition: 3s;
+}
+
+.opacityHidden {
+	opacity: 0;
+}
