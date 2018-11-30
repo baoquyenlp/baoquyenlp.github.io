@@ -91,9 +91,14 @@ div.cover div.formLogin div.contain div button {
 	line-height: 40px;
 	border-radius: 5px;
 	border: 1px solid #68466b;
+	cursor: pointer;
 }
 
-div.cover div.formLogin div.contain div span {
+div.cover div.formLogin div.contain div a {
+	text-decoration: none;
+}
+
+div.cover div.formLogin div.contain div a span {
 	font-size: 12px;
 	color: #999;
 	margin-left: 30px;
