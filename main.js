@@ -5,12 +5,11 @@ function zoomOut() {
 }
 
 //Progress Bar
-
 function run() {
   	var my_bar = document.getElementById("myBar"); 
   	var percent = document.getElementById("percent");   
-  	var width = 0;
-  	var id = setInterval(frame, 10);
+  	var width = 1;
+  	var id = setInterval(frame, 100);
   	function frame() {
     	if (width >= 100) {
       		clearInterval(id);
